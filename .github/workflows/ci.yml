@@ -26,7 +26,7 @@ jobs:
             args: [--no-frozen-lockfile]
 
     - name: lint
-      run: pnpm lint
+      run: pnpm -r lint
 
     - name: build
-      run: pnpm build
+      run: pnpm -r build

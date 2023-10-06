@@ -43,3 +43,18 @@ updates:
       vanilla-extract:
         patterns:
           - '*'
+
+  - package-ecosystem: npm
+    directory: '/kuma-ui-example/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+    groups:
+      kuma-ui-example:
+        patterns:
+          - '*'
