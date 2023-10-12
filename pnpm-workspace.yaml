@@ -1,2 +1,3 @@
 packages:
+  - './kuma-ui-example'
   - './vanilla-extract-example'
