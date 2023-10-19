@@ -15,7 +15,6 @@
     "lint": "pnpm prettier-check && pnpm eslint-check",
     "lint-fix": "pnpm prettier-format && pnpm eslint-fix",
     "clean": "rimraf build",
-    "prelint": "pnpm install",
     "analyze": "cross-env ANALYZE=true pnpm build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
