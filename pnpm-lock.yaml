@@ -5010,9 +5010,9 @@ packages:
       find-up: 5.0.0
       javascript-stringify: 2.1.0
       lodash: 4.17.21
-      mlly: 1.5.0
+      mlly: 1.6.0
       outdent: 0.8.0
-      vite: 5.1.3(@types/node@20.11.19)(less@4.2.0)
+      vite: 5.1.4(@types/node@20.11.19)(less@4.2.0)
       vite-node: 1.3.1(@types/node@20.11.19)(less@4.2.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -5868,7 +5868,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001588
-      electron-to-chromium: 1.4.677
+      electron-to-chromium: 1.4.679
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.21.5)
     dev: true
@@ -5879,7 +5879,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001588
-      electron-to-chromium: 1.4.677
+      electron-to-chromium: 1.4.679
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -6738,8 +6738,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.677:
-    resolution: {integrity: sha512-erDa3CaDzwJOpyvfKhOiJjBVNnMM0qxHq47RheVVwsSQrgBA9ZSGV9kdaOfZDPXcHzhG7lBxhj6A7KvfLJBd6Q==}
+  /electron-to-chromium@1.4.679:
+    resolution: {integrity: sha512-NhQMsz5k0d6m9z3qAxnsOR/ebal4NAGsrNVRwcDo4Kc/zQ7KdsTKZUxZoygHcVRb0QDW3waEDIcE3isZ79RP6g==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -7848,7 +7848,7 @@ packages:
     resolution: {integrity: sha512-CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw==}
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
-      flatted: 3.3.0
+      flatted: 3.3.1
       keyv: 4.5.4
       rimraf: 3.0.2
     dev: true
@@ -7858,8 +7858,8 @@ packages:
     hasBin: true
     dev: true
 
-  /flatted@3.3.0:
-    resolution: {integrity: sha512-noqGuLw158+DuD9UPRKHpJ2hGxpFyDlYYrfM0mWt4XhT4n0lwzTLh70Tkdyy4kyTmyTT9Bv7bWAJqw7cgkEXDg==}
+  /flatted@3.3.1:
+    resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
     dev: true
 
   /flow-parser@0.229.0:
@@ -9432,8 +9432,8 @@ packages:
     hasBin: true
     dev: true
 
-  /mlly@1.5.0:
-    resolution: {integrity: sha512-NPVQvAY1xr1QoVeG0cy8yUYC7FQcOx6evl/RjT1wL5FvzPnzOysoqB/jmx/DhssT2dYa8nxECLAaFI/+gVLhDQ==}
+  /mlly@1.6.0:
+    resolution: {integrity: sha512-YOvg9hfYQmnaB56Yb+KrJE2u0Yzz5zR+sLejEvF4fzwzV1Al6hkf2vyHTwqCRyv0hCi9rVCqVoXpyYevQIRwLQ==}
     dependencies:
       acorn: 8.11.3
       pathe: 1.1.2
@@ -10131,7 +10131,7 @@ packages:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
     dependencies:
       jsonc-parser: 3.2.1
-      mlly: 1.5.0
+      mlly: 1.6.0
       pathe: 1.1.2
     dev: true
 
@@ -12157,7 +12157,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.1.3(@types/node@20.11.19)(less@4.2.0)
+      vite: 5.1.4(@types/node@20.11.19)(less@4.2.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -12169,8 +12169,8 @@ packages:
       - terser
     dev: true
 
-  /vite@5.1.3(@types/node@20.11.19)(less@4.2.0):
-    resolution: {integrity: sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==}
+  /vite@5.1.4(@types/node@20.11.19)(less@4.2.0):
+    resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
