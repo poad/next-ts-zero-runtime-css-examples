@@ -54,11 +54,8 @@ export const paragraphInDescription = style({
       borderRadius: 0,
       border: 'none',
       borderBottom: '1px solid rgba(var(--callout-border-rgb), 0.25)',
-      background: `linear-gradient(
-      to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
-    )`,
+      background:
+        'linear-gradient(to bottom, rgba(var(--background-start-rgb), 1), rgba(var(--callout-rgb), 0.5))',
       backgroundClip: 'padding-box',
       backdropFilter: ' blur(24px)',
     },
@@ -73,11 +70,8 @@ export const divisionInDescription = style({
       inset: 'auto 0 0',
       padding: '2rem',
       height: '200px',
-      background: `linear-gradient(
-    to bottom,
-    transparent 0%,
-    rgb(var(--background-end-rgb)) 40%
-  )`,
+      background:
+        'linear-gradient(to bottom, transparent 0%, rgb(var(--background-end-rgb)) 40%)',
       zIndex: 1,
     },
   },
@@ -111,9 +105,7 @@ export const card = style({
   borderRadius: 'var(--borderRadius)',
   background: 'rgba(var(--card-rgb), 0)',
   border: '1px solid rgba(var(--card-border-rgb), 0)',
-  transition: `background 200ms,
-    border 200ms`,
-
+  transition: `background 200ms, border 200ms`,
   '@media': {
     '(hover: hover) and (pointer: fine)': {
       ':hover': {
