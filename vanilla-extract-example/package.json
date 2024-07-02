@@ -45,7 +45,7 @@
     "msw-storybook-addon": "^2.0.2",
     "rimraf": "^5.0.7",
     "storybook": "^8.1.11",
-    "typescript": "^5.5.2",
+    "typescript": "^5.5.3",
     "webpack-merge": "^5.10.0"
   },
   "msw": {
