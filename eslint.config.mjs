@@ -99,6 +99,20 @@ export default tseslint.config(
     },
   },
   {
+    plugins: {
+      '@stylistic': stylistic,
+      '@stylistic/ts': stylisticTs,
+      '@stylistic/jsx': stylisticJsx,
+    },
+    rules: {
+      '@stylistic/semi': 'error',
+      '@stylistic/ts/indent': ['error', 2],
+      '@stylistic/jsx/jsx-indent': ['error', 2],
+      'comma-dangle': ['error', 'always'],
+      'arrow-parens': ['error', 'always'],
+    },
+  },
+  {
     rules: {
       'react/display-name': 'off',
       'import/namespace': 'off',

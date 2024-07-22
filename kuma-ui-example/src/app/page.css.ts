@@ -1,4 +1,4 @@
-import { css } from '@kuma-ui/core';
+import { css, } from '@kuma-ui/core';
 
 export const main = css`
   display: flex;
