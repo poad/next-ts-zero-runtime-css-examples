@@ -3587,8 +3587,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.0:
-    resolution: {integrity: sha512-Vb3xHHYnLseK8vlMJQKJYXJ++t4u1/qJ3vykuVrVjvdiOEhYyT1AuP4x03G8EnPmYvYOhe9T+dADTmthjRQMkA==}
+  electron-to-chromium@1.5.1:
+    resolution: {integrity: sha512-FKbOCOQ5QRB3VlIbl1LZQefWIYwszlBloaXcY2rbfpu9ioJnNh3TK03YtIDKDo3WKBi8u+YV4+Fn2CkEozgf4w==}
 
   elliptic@6.5.6:
     resolution: {integrity: sha512-mpzdtpeCLuS3BmE3pO3Cpp5bbjlOPY2Q0PgoF+Od1XZrHLYI28Xe3ossCmYCQt11FQKEYd9+PF8jymTvtWJSHQ==}
@@ -6073,8 +6073,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  type-detect@4.0.8:
-    resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
+  type-detect@4.1.0:
+    resolution: {integrity: sha512-Acylog8/luQ8L7il+geoSxhEkazvkslg7PSNKOX59mbB9cOveP5aq9h74Y7YU8yDpJwetzQQrfIwtf4Wp4LKcw==}
     engines: {node: '>=4'}
 
   type-fest@0.21.3:
@@ -6258,8 +6258,8 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite@5.3.4:
-    resolution: {integrity: sha512-Cw+7zL3ZG9/NZBB8C+8QbQZmR54GwqIz+WMI4b3JgdYJvX+ny9AjJXqkGQlDXSXRP9rP0B4tbciRMOVEKulVOA==}
+  vite@5.3.5:
+    resolution: {integrity: sha512-MdjglKR6AQXQb9JGiS7Rc2wC6uMjcm7Go/NHNO63EwiJXfuk9PgqiP/n5IDJCziMkfw9n4Ubp7lttNwz+8ZVKA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -9657,7 +9657,7 @@ snapshots:
       find-up: 5.0.0
       javascript-stringify: 2.1.0
       mlly: 1.7.1
-      vite: 5.3.4(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3)
+      vite: 5.3.5(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3)
       vite-node: 1.6.0(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -10167,14 +10167,14 @@ snapshots:
   browserslist@4.21.5:
     dependencies:
       caniuse-lite: 1.0.30001643
-      electron-to-chromium: 1.5.0
+      electron-to-chromium: 1.5.1
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.21.5)
 
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001643
-      electron-to-chromium: 1.5.0
+      electron-to-chromium: 1.5.1
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
@@ -10229,7 +10229,7 @@ snapshots:
       get-func-name: 2.0.2
       loupe: 2.3.7
       pathval: 1.1.1
-      type-detect: 4.0.8
+      type-detect: 4.1.0
 
   chalk@2.4.2:
     dependencies:
@@ -10546,7 +10546,7 @@ snapshots:
 
   deep-eql@4.1.4:
     dependencies:
-      type-detect: 4.0.8
+      type-detect: 4.1.0
 
   deep-equal@2.2.3:
     dependencies:
@@ -10676,7 +10676,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.0: {}
+  electron-to-chromium@1.5.1: {}
 
   elliptic@6.5.6:
     dependencies:
@@ -13717,7 +13717,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  type-detect@4.0.8: {}
+  type-detect@4.1.0: {}
 
   type-fest@0.21.3: {}
 
@@ -13907,7 +13907,7 @@ snapshots:
       debug: 4.3.5
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.3.4(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3)
+      vite: 5.3.5(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -13918,7 +13918,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.3.4(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3):
+  vite@5.3.5(@types/node@20.14.12)(less@4.2.0)(terser@5.31.3):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.40
