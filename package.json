@@ -9,10 +9,10 @@
     "prebuild": "pnpm -r install"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.6.0",
-    "@stylistic/eslint-plugin-js": "^2.6.0",
-    "@stylistic/eslint-plugin-plus": "^2.6.0",
-    "@stylistic/eslint-plugin-ts": "^2.6.0",
+    "@stylistic/eslint-plugin": "^2.6.1",
+    "@stylistic/eslint-plugin-js": "^2.6.1",
+    "@stylistic/eslint-plugin-plus": "^2.6.1",
+    "@stylistic/eslint-plugin-ts": "^2.6.1",
     "eslint": "^9.8.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^14.2.5",
