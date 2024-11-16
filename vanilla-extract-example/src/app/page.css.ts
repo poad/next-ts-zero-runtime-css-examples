@@ -1,4 +1,4 @@
-import { style, } from '@vanilla-extract/css';
+import { style } from '@vanilla-extract/css';
 
 export const main = style({
   display: 'flex',
@@ -7,7 +7,7 @@ export const main = style({
   alignItems: 'center',
   padding: '6rem',
   minHeight: '100vh',
-},);
+});
 
 export const description = style({
   display: 'inherit',
@@ -18,7 +18,7 @@ export const description = style({
   width: '100%',
   zIndex: 2,
   fontFamily: 'var(--font-mono)',
-},);
+});
 
 export const linkInDescription = style({
   display: 'flex',
@@ -31,7 +31,7 @@ export const linkInDescription = style({
       padding: '1rem',
     },
   },
-},);
+});
 
 export const paragraphInDescription = style({
   position: 'relative',
@@ -60,7 +60,7 @@ export const paragraphInDescription = style({
       backdropFilter: ' blur(24px)',
     },
   },
-},);
+});
 
 export const divisionInDescription = style({
   '@media': {
@@ -75,7 +75,7 @@ export const divisionInDescription = style({
       zIndex: 1,
     },
   },
-},);
+});
 
 export const grid = style({
   display: 'grid',
@@ -93,12 +93,12 @@ export const grid = style({
       textAlign: 'center',
     },
   },
-},);
+});
 
 export const code = style({
   fontWeight: 700,
   fontFamily: 'var(--font-mono)',
-},);
+});
 
 export const card = style({
   padding: '1rem 1.2rem',
@@ -118,7 +118,7 @@ export const card = style({
       padding: '1rem 2.5rem',
     },
   },
-},);
+});
 
 export const cardSpan = style({
   display: 'inline-block',
@@ -140,7 +140,7 @@ export const cardSpan = style({
       },
     },
   },
-},);
+});
 
 export const cardH2 = style({
   fontWeight: 600,
@@ -150,7 +150,7 @@ export const cardH2 = style({
       marginBottom: '0.5rem',
     },
   },
-},);
+});
 
 export const cardP = style({
   margin: 0,
@@ -158,7 +158,7 @@ export const cardP = style({
   fontSize: '0.9rem',
   lineHeight: 1.5,
   maxWidth: '30ch',
-},);
+});
 
 export const center = style({
   display: 'flex',
@@ -201,7 +201,7 @@ export const center = style({
       },
     },
   },
-},);
+});
 
 export const logo = style({
   position: 'relative',
@@ -210,7 +210,7 @@ export const logo = style({
       filter: 'invert(1) drop-shadow(0 0 0.3rem #ffffff70)',
     },
   },
-},);
+});
 
 export const vercelLogo = style({
   '@media': {
@@ -218,4 +218,4 @@ export const vercelLogo = style({
       filter: 'invert(1)',
     },
   },
-},);
+});
