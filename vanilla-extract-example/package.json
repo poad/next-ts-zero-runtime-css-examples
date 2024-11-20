@@ -14,7 +14,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@emotion/cache": "^11.13.1",
+    "@emotion/cache": "^11.13.5",
     "@mui/material-nextjs": "^6.1.7",
     "@vanilla-extract/css": "^1.16.0",
     "next": "^15.0.3",
@@ -33,7 +33,7 @@
     "@storybook/nextjs": "^8.4.4",
     "@storybook/react": "^8.4.4",
     "@storybook/test": "^8.4.4",
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.9.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vanilla-extract/next-plugin": "^2.4.6",
