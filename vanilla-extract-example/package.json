@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@emotion/cache": "^11.13.5",
-    "@mui/material-nextjs": "^6.1.8",
+    "@mui/material-nextjs": "^6.1.9",
     "@vanilla-extract/css": "^1.16.1",
     "next": "^15.0.3",
     "react": "^18.3.1",
