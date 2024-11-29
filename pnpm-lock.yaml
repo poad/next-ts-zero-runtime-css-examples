@@ -121,8 +121,8 @@ importers:
         specifier: ^8.4.5
         version: 8.4.5(storybook@8.4.5)
       '@types/node':
-        specifier: ^22.10.0
-        version: 22.10.0
+        specifier: ^22.10.1
+        version: 22.10.1
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -134,10 +134,10 @@ importers:
         version: 7.0.3
       msw:
         specifier: ^2.6.6
-        version: 2.6.6(@types/node@22.10.0)(typescript@5.7.2)
+        version: 2.6.6(@types/node@22.10.1)(typescript@5.7.2)
       msw-storybook-addon:
         specifier: ^2.0.4
-        version: 2.0.4(msw@2.6.6(@types/node@22.10.0)(typescript@5.7.2))
+        version: 2.0.4(msw@2.6.6(@types/node@22.10.1)(typescript@5.7.2))
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -203,8 +203,8 @@ importers:
         specifier: ^8.4.5
         version: 8.4.5(storybook@8.4.5)
       '@types/node':
-        specifier: ^22.10.0
-        version: 22.10.0
+        specifier: ^22.10.1
+        version: 22.10.1
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -213,19 +213,19 @@ importers:
         version: 18.3.1
       '@vanilla-extract/next-plugin':
         specifier: ^2.4.7
-        version: 2.4.7(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(next@15.0.3(@babel/core@7.26.0)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(webpack@5.96.1)
+        version: 2.4.7(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(next@15.0.3(@babel/core@7.26.0)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(webpack@5.96.1)
       '@vanilla-extract/webpack-plugin':
         specifier: ^2.3.15
-        version: 2.3.15(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)(webpack@5.96.1)
+        version: 2.3.15(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)(webpack@5.96.1)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
       msw:
         specifier: ^2.6.6
-        version: 2.6.6(@types/node@22.10.0)(typescript@5.7.2)
+        version: 2.6.6(@types/node@22.10.1)(typescript@5.7.2)
       msw-storybook-addon:
         specifier: ^2.0.4
-        version: 2.0.4(msw@2.6.6(@types/node@22.10.0)(typescript@5.7.2))
+        version: 2.0.4(msw@2.6.6(@types/node@22.10.1)(typescript@5.7.2))
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -2237,8 +2237,8 @@ packages:
   '@types/mdx@2.0.13':
     resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
 
-  '@types/node@22.10.0':
-    resolution: {integrity: sha512-XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==}
+  '@types/node@22.10.1':
+    resolution: {integrity: sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -3064,8 +3064,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.66:
-    resolution: {integrity: sha512-pI2QF6+i+zjPbqRzJwkMvtvkdI7MjVbSh2g8dlMguDJIXEPw+kwasS1Jl+YGPEBfGVxsVgGUratAKymPdPo2vQ==}
+  electron-to-chromium@1.5.67:
+    resolution: {integrity: sha512-nz88NNBsD7kQSAGGJyp8hS6xSPtWwqNogA0mjtc2nUYeEf3nURK9qpV18TuBdDmEDgVWotS8Wkzf+V52dSQ/LQ==}
 
   elliptic@6.6.1:
     resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
@@ -4436,8 +4436,8 @@ packages:
   prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
 
-  psl@1.13.0:
-    resolution: {integrity: sha512-BFwmFXiJoFqlUpZ5Qssolv15DMyc84gTBds1BjsV1BfXEo1UyyD7GsmN67n7J77uRhoSNW1AXtXKPLcBFQn9Aw==}
+  psl@1.14.0:
+    resolution: {integrity: sha512-Syk1bnf6fRZ9wQs03AtKJHcM12cKbOLo9L8JtCCdYj5/DTsHmTyXM4BK5ouWeG2P6kZ4nmFvuNTdtaqfobCOCg==}
 
   public-encrypt@4.0.3:
     resolution: {integrity: sha512-zVpa8oKZSz5bTMTFClc1fQOnyyEzpl5ozpi1B5YcvBrdohMjH2rfsBtyXcuNuwjsDIXmBYlF2N5FlJYhR29t8Q==}
@@ -4953,8 +4953,8 @@ packages:
     resolution: {integrity: sha512-Loo5UUvLD9ScZ6jh8beX1T6sO1w2/MpCRpEP7V280GKMVUQ0Jzar2U3UJPsrdbziLEMMhu3Ujnq//rhiFuIeag==}
     engines: {node: '>=6'}
 
-  ts-api-utils@1.4.2:
-    resolution: {integrity: sha512-ZF5gQIQa/UmzfvxbHZI3JXN0/Jt+vnAfAviNRAMc491laiK6YCLpCW9ft8oaCRFOTxCZtUTE6XB0ZQAe3olntw==}
+  ts-api-utils@1.4.3:
+    resolution: {integrity: sha512-i3eMG77UTMD0hZhgRS562pv83RC6ukSAC2GMNWc+9dieh/+jDM5u5YG+NHX6VNDRHQcHwmsTHctP9LhbC3WxVw==}
     engines: {node: '>=16'}
     peerDependencies:
       typescript: '>=4.2.0'
@@ -6555,16 +6555,16 @@ snapshots:
   '@img/sharp-win32-x64@0.33.5':
     optional: true
 
-  '@inquirer/confirm@5.0.2(@types/node@22.10.0)':
+  '@inquirer/confirm@5.0.2(@types/node@22.10.1)':
     dependencies:
-      '@inquirer/core': 10.1.0(@types/node@22.10.0)
-      '@inquirer/type': 3.0.1(@types/node@22.10.0)
-      '@types/node': 22.10.0
+      '@inquirer/core': 10.1.0(@types/node@22.10.1)
+      '@inquirer/type': 3.0.1(@types/node@22.10.1)
+      '@types/node': 22.10.1
 
-  '@inquirer/core@10.1.0(@types/node@22.10.0)':
+  '@inquirer/core@10.1.0(@types/node@22.10.1)':
     dependencies:
       '@inquirer/figures': 1.0.8
-      '@inquirer/type': 3.0.1(@types/node@22.10.0)
+      '@inquirer/type': 3.0.1(@types/node@22.10.1)
       ansi-escapes: 4.3.2
       cli-width: 4.1.0
       mute-stream: 2.0.0
@@ -6577,9 +6577,9 @@ snapshots:
 
   '@inquirer/figures@1.0.8': {}
 
-  '@inquirer/type@3.0.1(@types/node@22.10.0)':
+  '@inquirer/type@3.0.1(@types/node@22.10.1)':
     dependencies:
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -7006,7 +7006,7 @@ snapshots:
   '@storybook/builder-webpack5@8.4.5(esbuild@0.24.0)(storybook@8.4.5)(typescript@5.7.2)':
     dependencies:
       '@storybook/core-webpack': 8.4.5(storybook@8.4.5)
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       '@types/semver': 7.5.8
       browser-assert: 1.2.1
       case-sensitive-paths-webpack-plugin: 2.4.0
@@ -7043,7 +7043,7 @@ snapshots:
   '@storybook/builder-webpack5@8.4.5(storybook@8.4.5)(typescript@5.7.2)':
     dependencies:
       '@storybook/core-webpack': 8.4.5(storybook@8.4.5)
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       '@types/semver': 7.5.8
       browser-assert: 1.2.1
       case-sensitive-paths-webpack-plugin: 2.4.0
@@ -7083,7 +7083,7 @@ snapshots:
 
   '@storybook/core-webpack@8.4.5(storybook@8.4.5)':
     dependencies:
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       storybook: 8.4.5
       ts-dedent: 2.2.0
 
@@ -7155,7 +7155,7 @@ snapshots:
       '@storybook/preset-react-webpack': 8.4.5(@storybook/test@8.4.5(storybook@8.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.5)(typescript@5.7.2)
       '@storybook/react': 8.4.5(@storybook/test@8.4.5(storybook@8.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.5)(typescript@5.7.2)
       '@storybook/test': 8.4.5(storybook@8.4.5)
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       '@types/semver': 7.5.8
       babel-loader: 9.2.1(@babel/core@7.26.0)(webpack@5.96.1)
       css-loader: 6.11.0(webpack@5.96.1)
@@ -7222,7 +7222,7 @@ snapshots:
       '@storybook/preset-react-webpack': 8.4.5(@storybook/test@8.4.5(storybook@8.4.5))(esbuild@0.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.5)(typescript@5.7.2)
       '@storybook/react': 8.4.5(@storybook/test@8.4.5(storybook@8.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.5)(typescript@5.7.2)
       '@storybook/test': 8.4.5(storybook@8.4.5)
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       '@types/semver': 7.5.8
       babel-loader: 9.2.1(@babel/core@7.26.0)(webpack@5.96.1(esbuild@0.24.0))
       css-loader: 6.11.0(webpack@5.96.1(esbuild@0.24.0))
@@ -7278,7 +7278,7 @@ snapshots:
       '@storybook/core-webpack': 8.4.5(storybook@8.4.5)
       '@storybook/react': 8.4.5(@storybook/test@8.4.5(storybook@8.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.5)(typescript@5.7.2)
       '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.7.2)(webpack@5.96.1(esbuild@0.24.0))
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       '@types/semver': 7.5.8
       find-up: 5.0.0
       magic-string: 0.30.14
@@ -7305,7 +7305,7 @@ snapshots:
       '@storybook/core-webpack': 8.4.5(storybook@8.4.5)
       '@storybook/react': 8.4.5(@storybook/test@8.4.5(storybook@8.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.5)(typescript@5.7.2)
       '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.7.2)(webpack@5.96.1)
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       '@types/semver': 7.5.8
       find-up: 5.0.0
       magic-string: 0.30.14
@@ -7521,7 +7521,7 @@ snapshots:
 
   '@types/mdx@2.0.13': {}
 
-  '@types/node@22.10.0':
+  '@types/node@22.10.1':
     dependencies:
       undici-types: 6.20.0
 
@@ -7562,7 +7562,7 @@ snapshots:
       graphemer: 1.4.0
       ignore: 5.3.2
       natural-compare: 1.4.0
-      ts-api-utils: 1.4.2(typescript@5.7.2)
+      ts-api-utils: 1.4.3(typescript@5.7.2)
     optionalDependencies:
       typescript: 5.7.2
     transitivePeerDependencies:
@@ -7597,7 +7597,7 @@ snapshots:
       '@typescript-eslint/utils': 8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
       debug: 4.3.7
       eslint: 9.15.0(jiti@1.21.6)
-      ts-api-utils: 1.4.2(typescript@5.7.2)
+      ts-api-utils: 1.4.3(typescript@5.7.2)
     optionalDependencies:
       typescript: 5.7.2
     transitivePeerDependencies:
@@ -7630,7 +7630,7 @@ snapshots:
       is-glob: 4.0.3
       minimatch: 9.0.5
       semver: 7.6.3
-      ts-api-utils: 1.4.2(typescript@5.7.2)
+      ts-api-utils: 1.4.3(typescript@5.7.2)
     optionalDependencies:
       typescript: 5.7.2
     transitivePeerDependencies:
@@ -7696,7 +7696,7 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@vanilla-extract/integration@7.1.11(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)':
+  '@vanilla-extract/integration@7.1.11(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.0)
@@ -7708,8 +7708,8 @@ snapshots:
       find-up: 5.0.0
       javascript-stringify: 2.1.0
       mlly: 1.7.3
-      vite: 5.4.11(@types/node@22.10.0)(less@4.2.0)(terser@5.36.0)
-      vite-node: 1.6.0(@types/node@22.10.0)(less@4.2.0)(terser@5.36.0)
+      vite: 5.4.11(@types/node@22.10.1)(less@4.2.0)(terser@5.36.0)
+      vite-node: 1.6.0(@types/node@22.10.1)(less@4.2.0)(terser@5.36.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7722,9 +7722,9 @@ snapshots:
       - supports-color
       - terser
 
-  '@vanilla-extract/next-plugin@2.4.7(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(next@15.0.3(@babel/core@7.26.0)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(webpack@5.96.1)':
+  '@vanilla-extract/next-plugin@2.4.7(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(next@15.0.3(@babel/core@7.26.0)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(webpack@5.96.1)':
     dependencies:
-      '@vanilla-extract/webpack-plugin': 2.3.15(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)(webpack@5.96.1)
+      '@vanilla-extract/webpack-plugin': 2.3.15(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)(webpack@5.96.1)
       next: 15.0.3(@babel/core@7.26.0)(babel-plugin-macros@3.1.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/node'
@@ -7741,9 +7741,9 @@ snapshots:
 
   '@vanilla-extract/private@1.0.6': {}
 
-  '@vanilla-extract/webpack-plugin@2.3.15(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)(webpack@5.96.1)':
+  '@vanilla-extract/webpack-plugin@2.3.15(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)(webpack@5.96.1)':
     dependencies:
-      '@vanilla-extract/integration': 7.1.11(@types/node@22.10.0)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)
+      '@vanilla-extract/integration': 7.1.11(@types/node@22.10.1)(babel-plugin-macros@3.1.0)(less@4.2.0)(terser@5.36.0)
       debug: 4.3.7
       loader-utils: 2.0.4
       picocolors: 1.1.1
@@ -8175,14 +8175,14 @@ snapshots:
   browserslist@4.21.5:
     dependencies:
       caniuse-lite: 1.0.30001684
-      electron-to-chromium: 1.5.66
+      electron-to-chromium: 1.5.67
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.21.5)
 
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001684
-      electron-to-chromium: 1.5.66
+      electron-to-chromium: 1.5.67
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -8571,7 +8571,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.66: {}
+  electron-to-chromium@1.5.67: {}
 
   elliptic@6.6.1:
     dependencies:
@@ -9076,7 +9076,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       require-like: 0.1.2
 
   event-target-shim@5.0.1: {}
@@ -9611,7 +9611,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -9836,17 +9836,17 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw-storybook-addon@2.0.4(msw@2.6.6(@types/node@22.10.0)(typescript@5.7.2)):
+  msw-storybook-addon@2.0.4(msw@2.6.6(@types/node@22.10.1)(typescript@5.7.2)):
     dependencies:
       is-node-process: 1.2.0
-      msw: 2.6.6(@types/node@22.10.0)(typescript@5.7.2)
+      msw: 2.6.6(@types/node@22.10.1)(typescript@5.7.2)
 
-  msw@2.6.6(@types/node@22.10.0)(typescript@5.7.2):
+  msw@2.6.6(@types/node@22.10.1)(typescript@5.7.2):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
-      '@inquirer/confirm': 5.0.2(@types/node@22.10.0)
+      '@inquirer/confirm': 5.0.2(@types/node@22.10.1)
       '@mswjs/interceptors': 0.37.1
       '@open-draft/deferred-promise': 2.2.0
       '@open-draft/until': 2.1.0
@@ -10272,7 +10272,7 @@ snapshots:
   prr@1.0.1:
     optional: true
 
-  psl@1.13.0:
+  psl@1.14.0:
     dependencies:
       punycode: 2.3.1
 
@@ -10877,12 +10877,12 @@ snapshots:
 
   tough-cookie@4.1.4:
     dependencies:
-      psl: 1.13.0
+      psl: 1.14.0
       punycode: 2.3.1
       universalify: 0.2.0
       url-parse: 1.5.10
 
-  ts-api-utils@1.4.2(typescript@5.7.2):
+  ts-api-utils@1.4.3(typescript@5.7.2):
     dependencies:
       typescript: 5.7.2
 
@@ -11057,13 +11057,13 @@ snapshots:
 
   uuid@9.0.1: {}
 
-  vite-node@1.6.0(@types/node@22.10.0)(less@4.2.0)(terser@5.36.0):
+  vite-node@1.6.0(@types/node@22.10.1)(less@4.2.0)(terser@5.36.0):
     dependencies:
       cac: 6.7.14
       debug: 4.3.7
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.11(@types/node@22.10.0)(less@4.2.0)(terser@5.36.0)
+      vite: 5.4.11(@types/node@22.10.1)(less@4.2.0)(terser@5.36.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11075,13 +11075,13 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.11(@types/node@22.10.0)(less@4.2.0)(terser@5.36.0):
+  vite@5.4.11(@types/node@22.10.1)(less@4.2.0)(terser@5.36.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
       rollup: 4.27.4
     optionalDependencies:
-      '@types/node': 22.10.0
+      '@types/node': 22.10.1
       fsevents: 2.3.3
       less: 4.2.0
       terser: 5.36.0
