@@ -14,7 +14,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@emotion/cache": "^11.13.5",
+    "@emotion/cache": "^11.14.0",
     "@kuma-ui/core": "^1.5.8",
     "@mui/material-nextjs": "^6.1.9",
     "next": "^15.0.4",
