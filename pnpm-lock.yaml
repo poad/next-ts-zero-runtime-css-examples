@@ -30,7 +30,7 @@ importers:
         specifier: ^0.13.0
         version: 0.13.0(eslint-plugin-import@2.31.0)
       eslint-config-next:
-        specifier: ^15.1.0
+        specifier: ^15.0.4
         version: 15.1.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint-import-resolver-typescript:
         specifier: ^3.7.0
