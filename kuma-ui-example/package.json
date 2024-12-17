@@ -39,7 +39,7 @@
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "cross-env": "^7.0.3",
-    "msw": "^2.6.9",
+    "msw": "^2.7.0",
     "msw-storybook-addon": "^2.0.4",
     "rimraf": "^6.0.1",
     "storybook": "^8.4.7",
