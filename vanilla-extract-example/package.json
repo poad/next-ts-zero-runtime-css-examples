@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
-    "@mui/material-nextjs": "^6.2.0",
+    "@mui/material-nextjs": "^6.2.1",
     "@vanilla-extract/css": "^1.16.1",
-    "next": "^15.1.0",
+    "next": "^15.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^15.1.0",
+    "@next/bundle-analyzer": "^15.1.1",
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-interactions": "^8.4.7",
     "@storybook/addon-links": "^8.4.7",
