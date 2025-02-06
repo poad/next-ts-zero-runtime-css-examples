@@ -66,8 +66,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(eslint@9.19.0(jiti@1.21.7))(typescript@5.7.3)
       pnpm:
-        specifier: ^10.2.0
-        version: 10.2.0
+        specifier: ^10.2.1
+        version: 10.2.1
       typescript-eslint:
         specifier: ^8.23.0
         version: 8.23.0(eslint@9.19.0(jiti@1.21.7))(typescript@5.7.3)
@@ -3946,8 +3946,8 @@ packages:
     resolution: {integrity: sha512-2Rb3vm+EXble/sMXNSu6eoBx8e79gKqhNq9F5ZWW6ERNCTE/Q0wQNne5541tE5vKjfM8hpNCYL+LGc1YTfI0dg==}
     engines: {node: '>=6'}
 
-  pnpm@10.2.0:
-    resolution: {integrity: sha512-DSc2TgE5xqre7WWtoVMTXgypbI2kISO9UAR/lhM53Hp1j8LpRLQo9SvlcNG9M3JFXBxl+i56oL+/kxGQ+VUgAQ==}
+  pnpm@10.2.1:
+    resolution: {integrity: sha512-OYA1x71pbQugsQpojtVYKFMp0n6plIBKUrrZFn2OOnK8uZP5aZWF08old5rGSUnvQidXpsMRAsEquTLly+XMkg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -9456,7 +9456,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  pnpm@10.2.0: {}
+  pnpm@10.2.1: {}
 
   polished@4.3.1:
     dependencies:
