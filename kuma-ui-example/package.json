@@ -35,7 +35,7 @@
     "@storybook/nextjs": "^8.5.8",
     "@storybook/react": "^8.5.8",
     "@storybook/test": "^8.5.8",
-    "@types/node": "^22.13.4",
+    "@types/node": "^22.13.5",
     "@types/react": "^19.0.9",
     "@types/react-dom": "^19.0.4",
     "cross-env": "^7.0.3",
