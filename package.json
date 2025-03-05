@@ -11,7 +11,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.21.0",
-    "@next/eslint-plugin-next": "^15.2.0",
+    "@next/eslint-plugin-next": "^15.2.1",
     "@stylistic/eslint-plugin": "^3.1.0",
     "@stylistic/eslint-plugin-js": "^3.1.0",
     "@stylistic/eslint-plugin-jsx": "^3.1.0",
@@ -19,7 +19,7 @@
     "@stylistic/eslint-plugin-ts": "^3.1.0",
     "eslint": "^9.21.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.2.0",
+    "eslint-config-next": "^15.2.1",
     "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
@@ -29,7 +29,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-storybook": "^0.8.0",
     "pnpm": "^10.5.2",
-    "typescript-eslint": "^8.25.0"
+    "typescript-eslint": "^8.26.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

@@ -15,7 +15,10 @@ updates:
           - '*'
 
   - package-ecosystem: npm
-    directory: '/'
+    directories:
+      - '/'
+      - '/vanilla-extract-example/'
+      - '/kuma-ui-example/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -25,36 +28,6 @@ updates:
     assignees:
       - poad
     groups:
-      root:
-        patterns:
-          - '*'
-
-  - package-ecosystem: npm
-    directory: '/vanilla-extract-example/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      vanilla-extract:
-        patterns:
-          - '*'
-
-  - package-ecosystem: npm
-    directory: '/kuma-ui-example/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      kuma-ui-example:
+      npm:
         patterns:
           - '*'
